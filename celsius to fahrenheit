@@ -1,0 +1,3 @@
+t1=int (input("enter the temperature in celsius:"))
+t2=9/5*t1+32
+print (t2)
