@@ -1,0 +1,8 @@
+def array_intersection(n1,n2):
+    set1=set(n1)
+    set2=set(n2)
+    result=list(set1.intersection(set2))
+    return result
+n1=[1,2,2,1]
+n2=[2,3]
+print("intersection of arrays:",array_intersection(n1,n2))
